@@ -1,0 +1,28 @@
+{
+   "action": {
+      "default_icon": {
+         "128": "/images/icon128.png",
+         "16": "/images/icon16.png",
+         "32": "/images/icon32.png",
+         "48": "/images/icon48.png"
+      },
+      "default_popup": "popup.html"
+   },
+   "background": {
+      "service_worker": "background.mjs",
+      "type": "module"
+   },
+   "description": "Get cookies.txt, NEVER send information outside with open-source",
+   "host_permissions": [ "<all_urls>" ],
+   "icons": {
+      "128": "/images/icon128.png",
+      "16": "/images/icon16.png",
+      "32": "/images/icon32.png",
+      "48": "/images/icon48.png"
+   },
+   "incognito": "split",
+   "manifest_version": 3,
+   "name": "Get cookies.txt LOCALLY",
+   "permissions": [ "activeTab", "cookies", "downloads", "notifications" ],
+   "version": "0.7.0"
+}
